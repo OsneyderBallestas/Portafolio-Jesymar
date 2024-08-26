@@ -3065,21 +3065,29 @@ form textarea:required:valid {
 
 @media only screen and (max-width: 992px) {
 
-  .logo__image img {
-    margin: 0;
-    width: 80px;
-    height: 80px;
-  }
+  .avatar__logo {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el logo y el texto */
+    justify-content: center; /* Centra horizontalmente el contenido */
+}
 
-  .logo__caption {
+.logo__image {
     margin: 0;
-    margin-top: 2.5rem;
-  }
+    display: flex;
+    align-items: center; /* Asegura que la imagen esté centrada si es necesario */
+}
 
-  .logo__caption p {
-    font: normal 700 4rem/1.06 var(--_font-accent);
-    color: var(--t-bright);
-  }
+.logo__caption {
+    display: flex;
+    justify-content: center; /* Centra verticalmente el texto */
+    margin: 0;
+}
+
+.logo__caption p {
+    margin: 0; /* Elimina los márgenes predeterminados del párrafo */
+    font: normal 700 3rem/1.06 var(--_font-accent);
+}
+
 }
 
 
