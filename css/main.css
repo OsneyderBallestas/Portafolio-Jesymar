@@ -3013,6 +3013,7 @@ form textarea:required:valid {
 
 .avatar__logo {
   margin-bottom: 4rem;
+  
 }
 @media only screen and (min-width: 1400px) {
   .avatar__logo {
@@ -3027,6 +3028,7 @@ form textarea:required:valid {
 .logo__image img {
   width: 75px;
   height: 75px;
+  margin-left: 1.3rem;
 }
 @media only screen and (min-width: 1400px) {
   .logo__image {
@@ -3036,7 +3038,7 @@ form textarea:required:valid {
 }
 
 .logo__caption {
-  padding-left: 2rem;
+  padding-left: 3rem;
 }
 .logo__caption p {
   font: normal 700 2.8rem/1.06 var(--_font-accent);
@@ -3058,6 +3060,28 @@ form textarea:required:valid {
 .avatar__socials {
   margin-bottom: 1rem;
 }
+
+
+
+@media only screen and (max-width: 992px) {
+
+  .logo__image img {
+    margin: 0;
+    width: 80px;
+    height: 80px;
+  }
+
+  .logo__caption {
+    margin: 0;
+    margin-top: 2.5rem;
+  }
+
+  .logo__caption p {
+    font: normal 700 4rem/1.06 var(--_font-accent);
+    color: var(--t-bright);
+  }
+}
+
 
 /* ------------------------------------------------*/
 /* Blocks Avatar End */
