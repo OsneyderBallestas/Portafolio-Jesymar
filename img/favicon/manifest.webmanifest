@@ -1,9 +1,9 @@
 {
-  "name": "Braxton - Personal Portfolio & Resume HTML Template",
-  "short_name": "CV/Resume",
+  "name": "Jesymar Henao - Marketer y Graphic Designer",
+  "short_name": "CV/Resumen",
   "icons": [
-    { "src": "/img/favicon/android-icon-192.png", "type": "image/png", "sizes": "192x192" },
-    { "src": "/img/favicon/android-icon-512.png", "type": "image/png", "sizes": "512x512" }
+    { "src": "/img/perfil jesymar.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/img/perfil jesymar.png", "type": "image/png", "sizes": "512x512" }
   ],
   "theme_color": "#efefef",
   "background_color": "#efefef",
