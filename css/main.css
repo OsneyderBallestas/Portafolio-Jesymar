@@ -3037,6 +3037,24 @@ form textarea:required:valid {
   }
 }
 
+
+
+/* Modo Claro */
+:root[color-scheme="light"] .logo__image img {
+  filter: brightness(0) saturate(100%) invert(42%) sepia(77%) saturate(3000%) hue-rotate(247deg) brightness(91%) contrast(104%);
+}
+
+/* Modo Oscuro */
+:root[color-scheme="dark"] .logo__image img {
+  filter: none;
+}
+
+
+
+
+
+
+
 .logo__caption {
   padding-left: 3rem;
 }
@@ -3439,8 +3457,14 @@ form textarea:required:valid {
   }
 }
 
+.gallery__link .picture {
+  display: none; /* Ocultar el div que el JavaScript añade */
+}
+
 .gallery__image {
-  opacity: 0;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .gallery__descr {
